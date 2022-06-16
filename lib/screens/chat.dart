@@ -25,6 +25,13 @@ class Myapp extends State<Chat> {
   }
 
   @override
+  void initState() {
+    super.initState();
+   // loggeruser=User();
+
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
